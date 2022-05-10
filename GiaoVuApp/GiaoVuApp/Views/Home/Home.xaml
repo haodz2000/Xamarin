@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GiaoVuApp.Views.Home.Home">
+  <ContentView.Content>
+        <StackLayout>
+            <StackLayout >
+                <StackLayout  Orientation="Horizontal" Margin="0,0,0,20" Padding="10">
+                    <Button Text="Trang chủ"
+                            FontSize="16"
+                            BackgroundColor="#fff"
+                            FontAttributes="Bold">
+                    </Button>
+                    <Button  x:Name="Name"   
+                             FontSize="16"
+                             BackgroundColor="#fff"
+                             FontAttributes="Bold" 
+                             Margin="160,0,0,0">
+                    </Button>
+                </StackLayout>
+                <Label Text="Service" TextColor="Blue" FontSize="20" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+                <ScrollView>
+                    
+                    <StackLayout>
+                        <StackLayout StyleClass="Service" Padding="10"  Orientation="Vertical">
+                            <Label
+                                FontSize="18"
+                                Margin="5,10,0,15"
+                                >Giấy chưng nhận sinh viên</Label>
+                            <Button TextColor="White" BackgroundColor="Blue" FontSize="16" FontAttributes="Bold" Text="Đăng ký"/>
+                        </StackLayout>
+                        <StackLayout StyleClass="Service" Padding="10"  Orientation="Vertical">
+                            <Label
+                                FontSize="18"
+                                Margin="5,10,0,15"
+                                >Giấy giới thiệu</Label>
+                            <Button TextColor="White" BackgroundColor="Blue" FontSize="16" FontAttributes="Bold" Text="Đăng ký"/>
+                        </StackLayout>
+                        <StackLayout StyleClass="Service" Padding="10" Orientation="Vertical">
+                            <Label
+                                FontSize="18"
+                                Margin="5,10,0,15"
+                                >Giấy giới thiệu thực tập</Label>
+                            <Button TextColor="White" BackgroundColor="Blue" FontSize="16" FontAttributes="Bold" Text="Đăng ký"/>
+                        </StackLayout>
+                        <StackLayout StyleClass="Service" Padding="10" Orientation="Vertical">
+                            <Label
+                                FontSize="18"
+                                Margin="5,10,0,15"
+                                >Bảng điểm</Label>
+                            <Button TextColor="White" BackgroundColor="Blue" FontSize="16" FontAttributes="Bold" Text="Đăng ký"/>
+                        </StackLayout>
+                        <StackLayout StyleClass="Service" Padding="10" Orientation="Vertical">
+                            <Label
+                                FontSize="18"
+                                Margin="5,10,0,15"
+                                >Mở rộng lớp</Label>
+                            <Button TextColor="White" BackgroundColor="Blue" FontSize="16" FontAttributes="Bold" Text="Đăng ký"/>
+                        </StackLayout>
+                        <StackLayout StyleClass="Service" Padding="10" Orientation="Vertical">
+                            <Label
+                            FontSize="18"
+                            Margin="5,10,0,15"
+                            >Sinh viên nghiên cứu khoa học</Label>
+                            <Button TextColor="White" BackgroundColor="Blue" FontSize="16" FontAttributes="Bold" Text="Đăng ký"/>
+                        </StackLayout>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GiaoVuApp.Views.Login.FormLogin">
+  <ContentView.Content>
+        <StackLayout Margin="20,80">
+            <Label
+                    BackgroundColor="Blue"
+                    TextColor="White"
+                    Padding="20"
+                    FontSize="20"
+                    Margin="0,0,0,50"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="Center"
+                    >
+                HỆ THỐNG HỖ TRỢ GIÁO VỤ
+            </Label>
+
+            <StackLayout Orientation="Vertical">
+                <Label
+                    FontSize="18"
+                    TextColor="Blue"
+                    >Tài khoản đăng nhập</Label>
+                <Entry  BackgroundColor="White" x:Name="username" Keyboard="Numeric" Placeholder="Your Mssv" />
+                <Entry BackgroundColor="White" x:Name="password" IsPassword="True" Placeholder="Password"/>
+                
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" >
+                <CheckBox x:Name="keepLogin" Grid.Column="0" Color="Black" />
+                <Label Text="Nhớ đăng nhập" Grid.Column="1" Margin="5" FontSize="15" TextColor="Black"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Button Text="SIGN IN" x:Name="Login" Clicked="Login_Clicked" />
+                <Button Text="FORGET PASSWORD" x:Name="forgetPassword"/>
+            </StackLayout>
+
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

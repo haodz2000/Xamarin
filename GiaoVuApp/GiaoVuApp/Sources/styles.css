@@ -1,0 +1,36 @@
+﻿^contentpage{
+    background-color: #fff;
+}
+
+#Login {
+    background-color: #44c767;
+    border-radius: 28;
+    border: 1 solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17;
+    padding: 16 31;
+    text-decoration: none;
+    text-shadow: 0 1 0 #2f6627;
+}
+
+#forgetPassword {
+    background-color: #44c767;
+    border-radius: 28;
+    border: 1 solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17;
+    padding: 16 31;
+    text-decoration: none;
+    text-shadow: 0 1 0 #2f6627;
+}
+.Service{
+    background-color: lavender;
+    margin-bottom: 10;
+}
+
